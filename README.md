@@ -1,8 +1,8 @@
 Performs semantic segmentation on a slime mold image dataset. Included:
 
 Main script to run the network (main_network.py),
-Training script (utils/training_module.py),
-Available neural network models (utils/models.py),
-Visualization tools (utils/toolbox.py),
-Slime mold images (slime_mold_dataset),
-Output folder (Results)
+training script (utils/training_module.py),
+available neural network models (utils/models.py),
+visualization tools (utils/toolbox.py),
+slime mold images (slime_mold_dataset),
+and output folder (Results)
