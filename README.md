@@ -1,4 +1,4 @@
-Performs semantic segmentation on a slime mold image dataset. Included:
+Performs semantic segmentation on a slime mold image dataset. Files included:
 
 Main script to run the network (main_network.py),
 training script (utils/training_module.py),
