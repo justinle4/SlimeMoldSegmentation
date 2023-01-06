@@ -4,5 +4,4 @@ Main script to run the network (main_network.py),
 training script (utils/training_module.py),
 available neural network models (utils/models.py),
 visualization tools (utils/toolbox.py),
-slime mold images (slime_mold_dataset),
-and output folder (Results)
+and slime mold images (slime_mold_dataset)
