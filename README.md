@@ -11,5 +11,5 @@ All results from training and inference will be saved in the results_ML folder.
 Example outputs from segmentation inference: \\
 
 ![alt text](https://github.com/justinle4/SlimeMoldSegmentation/blob/master/sample_output/Protocole10__B2__ConJ5ExB4_prediction.png?raw=true) \\
-
+\\
 ![alt text](https://github.com/justinle4/SlimeMoldSegmentation/blob/master/sample_output/Protocole2__DW__ConJ3ExB5_prediction.png?raw=true)
