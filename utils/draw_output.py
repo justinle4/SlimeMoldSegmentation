@@ -11,11 +11,11 @@ def chebyshev_distance(x1, x2, y1, y2):
 def draw_box(array, x_center, y_center, radius, thickness=5):
     """
     :param array: (HxWxRBGA) numpy array
-    :param x_center: center x-coordinate of box
-    :param y_center: center y-coordinate of box
-    :param radius: radius of box
+    :param x_center: center x-coordinate of petri dish center
+    :param y_center: center y-coordinate of petri dish center
+    :param radius: radius of the petri dish
     :param thickness: desired thickness of box border. Default = 5
-    :return: Original array with red border representing bounding box.
+    :return: Original array with a red border representing the bounding box.
     """
     length = array.shape[0]
     width = array.shape[1]
@@ -31,11 +31,11 @@ def draw_box(array, x_center, y_center, radius, thickness=5):
 def draw_circle(array, x_center, y_center, radius, thickness=1):
     """
     :param array: (HxWxRBGA) numpy array
-    :param x_center: center x-coordinate of box
-    :param y_center: center y-coordinate of box
-    :param radius: radius of box
-    :param thickness: desired thickness of box border. Default = 5
-    :return: Original array with red border representing bounding box.
+    :param x_center: center x-coordinate of petri dish
+    :param y_center: center y-coordinate of petri dish
+    :param radius: radius of the petri dish
+    :param thickness: desired thickness of circle border. Default = 1
+    :return: Original array with a blue border representing the petri dish.
     """
     length = array.shape[0]
     width = array.shape[1]
